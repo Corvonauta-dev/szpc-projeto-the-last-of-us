@@ -40,7 +40,7 @@ function esconderImagemAtiva() {
     imagemAtiva.classList.remove('ativa');
 }
 
-function esconderImagemAtiva() {
+function desativarBotaoSelecionado() {
     const botaoSelecionado = document.querySelector('.selecionado');
     botaoSelecionado.classList.remove('selecionado');
 }
