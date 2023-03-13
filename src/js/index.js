@@ -15,13 +15,10 @@ botoesCarrossel.forEach((botao, indice) => {
     botao.addEventListener('click', () => {
         // passo 3
         desativarBotaoSelecionado();
-
         // passo 4
         selecionarBoaoCarrosseul(botao);
-
         // passo 5
         esconderImagemAtiva();
-
         // passo 6
         mostrarImagemDeFundo(indice);
     });
